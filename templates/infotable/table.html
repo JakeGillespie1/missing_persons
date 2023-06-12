@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
+
+<!-- navigation -->
+{% block navbar_items %}
+    <li class="nav-item"><a class="nav-link" href="">Info Table</a></li>
+{% endblock %}
+
 <!-- This is where the base content is loaded and wrapped around the child content
 (wrapped, because there is a header and a footer in the base content) -->
 {% block content %}
