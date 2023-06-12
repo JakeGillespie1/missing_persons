@@ -1,6 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def indexPageView(request, context):
-    context = {}
+def indexPageView(request):
     return render(request, "index.html")
