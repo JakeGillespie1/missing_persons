@@ -10896,7 +10896,7 @@ header.masthead .masthead-content .masthead-subheading {
 
 table{
   border: 50px solid;
-  background-color: beige;
+  background-color: #ff603b;
   border-color:black;
 }
 
@@ -10904,6 +10904,7 @@ th {
   text-align:center;
   font-size: 20px;
   font-weight: bold;
+  color: white;
 }
 
 td {
