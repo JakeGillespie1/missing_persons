@@ -33,12 +33,19 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="masthead text-center text-white">
+        {% block header %}
+        <!--specific CSS header type-->
+        {% endblock %}
             <div class="masthead-content">
             <div class="masthead">
             <div class="container px-5">
-        <h1 class="masthead-heading mb-0">YOU CAN SAVE <br> SOMEONE'S LIFE. </h1>
-        <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">How?</a>
+        {% block header_heading %}
+        <!--specific header title-->
+        {% endblock %}
+
+        {%block scroll_functionality%}
+        <!--Here is the scroll functionality-->
+        {%endblock%}
         </div></div></div>
 </header>
 {% block content %}
