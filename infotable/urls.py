@@ -3,5 +3,5 @@ from .views import infoTableView
 
 
 urlpatterns = [
-    path('', infoTableView)
+    path('', infoTableView, name="infoTableView")
 ]
