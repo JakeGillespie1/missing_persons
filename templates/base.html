@@ -26,8 +26,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                         <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
-                         <li class="nav-item"><a class="nav-link" href="infotable/">Info Table</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
+                    {% block navbar_items %}
+                        <!-- this section is for specific menu items -->
+                    {% endblock %}
                     </ul>
                 </div>
             </div>
