@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'missing_persons',
-    'USER': 'postgres',
+    'USER': '',
     'PASSWORD': '',
     'HOST': 'localhost'
     }
