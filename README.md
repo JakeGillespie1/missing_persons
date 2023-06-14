@@ -14,7 +14,7 @@ Install Django and Update Pip.<br>
 Note: (at this point you will now have the ability to run the server).
 <br><br>
 Step 3:
-Create a database in pgadmin titled: missing_person, install psycopg2, and
+Create a database in pgadmin titled: missing_persons, install psycopg2, and
 insert the two migration commands (be sure to change the database pswrd in settings.py to match your own).<br>
 Note: (at this point you will now have the ability to view the database in pgadmin).
 <br><br>
