@@ -10859,6 +10859,10 @@ html {
   letter-spacing: 0.1rem;
 }
 
+#textlink {
+  color: #ff0000;
+}
+
 header.masthead {
   position: relative;
   overflow: hidden;
