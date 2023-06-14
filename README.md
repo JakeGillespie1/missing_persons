@@ -6,7 +6,7 @@ Team 15
 <br><br>
 Step 1:
 <br>
-Install your .venv in VSCode if you are zipping the code to your computer from Git.
+Install your .venv in VSCode after zipping the code to your computer from Git.
 <br><br>
 Step 2:
 <br>
@@ -14,7 +14,7 @@ Install Django and Update Pip.
 Note: (at this point you will now have the ability to run the server).
 <br><br>
 Step 3:
-Install psycopg2 and insert the two migration commands.
+Install psycopg2 and insert the two migration commands (be sure to change the database pswrd in settings.py to match your own).
 Note: (at this point you will now have the ability to view the database in pgadmin).
 <br><br>
 Step 4:
