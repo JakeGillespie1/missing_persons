@@ -10,6 +10,12 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+#textlink {
+  color: #ff0000;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10857,10 +10863,6 @@ html {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-}
-
-#textlink {
-  color: #ff0000;
 }
 
 header.masthead {
