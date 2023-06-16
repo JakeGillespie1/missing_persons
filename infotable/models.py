@@ -11,3 +11,6 @@ class Person(models.Model):
     personState = models.CharField(max_length=2)
     personGender = models.CharField(max_length=1)
     personRace = models.CharField(max_length=1)
+    @property
+    def personFullName(self):
+        return '%s %s' %(self.personFirstName, self.personLastName)
