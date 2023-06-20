@@ -14,3 +14,6 @@ class Person(models.Model):
     @property
     def personFullName(self):
         return '%s %s' %(self.personFirstName, self.personLastName)
+    
+    def __str__(self):
+        return self.personFullName
